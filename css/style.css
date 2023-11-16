@@ -207,6 +207,8 @@ header{
 .add-cart{
     background: cadetblue;
 }
+
+
 /* Brakepoints / Making Responsive */
 @media (max-width:1080px){
     .nav {
@@ -243,6 +245,7 @@ header{
         height: auto;
     } 
 }
+
 @media (max-width:1080px){
     .nav{
         padding: 11px;
@@ -262,6 +265,7 @@ header{
         width: 280px;
     }
 }
+
 .footer{
     background: black;
     color: white;

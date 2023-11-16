@@ -20,8 +20,11 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 7rem;
+    grid-gap: 5rem;
     padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img {
@@ -169,4 +172,24 @@ a:hover {
 
 .btn:hover {
     background-position: right;
+}
+
+@media screen and (max-width: 476px) {
+    .container {
+        width: 50%;
+    }
+
+    .login-container {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        width: 95%;
+    }
+
+    .login-container {
+        width: 50%;
+    }
 }
