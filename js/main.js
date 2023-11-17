@@ -61,7 +61,7 @@ function buyButtonClicked() {
 
 // add to cart notif
 function addCartButtonClicked() {
-    alert('Your order succesfully added');
+    alert('Your order successfully added');
     var addCart = document.getElementsByClassName("add-cart");
     for (var i = 0; i < addCart.length; i++) {
         var button = addCart[i];
